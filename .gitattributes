@@ -32,22 +32,14 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
-# Less stylesheet file
-*.less linguist-detectable=true
-*.less linguist-documentation=false
-*.less linguist-language=Less
+# Java source file
+*.java linguist-detectable=true
+*.java linguist-documentation=false
+*.java linguist-language=Java
 # JSON (JavaScript Object Notation) source file
 *.json linguist-detectable=false
 *.json linguist-documentation=false
 *.json linguist-language=JSON
-# WebVTT subtitle file
-*.vtt linguist-detectable=true
-*.vtt linguist-documentation=false
-*.vtt linguist-language=WebVTT
-# SubRip subtitle file
-*.srt linguist-detectable=true
-*.srt linguist-documentation=false
-*.srt linguist-language=SubRip-Text
 # YAML (YAML Ain't Markup Language) document
 # Do not include, as it would become a dominant language that shouldn't be the language people refer this project to
 *.yml linguist-detectable=false
@@ -161,10 +153,29 @@
 *.gif linguist-detectable=false
 *.gif linguist-documentation=false
 *.gif linguist-language=GIF
+# Roff
+# Does not need to be discluded
+# *.0 linguist-detectable=false
+# *.0 linguist-documentation=false
+# *.0 linguist-language=Roff
+# *.1 linguist-detectable=false
+# *.1 linguist-documentation=false
+# *.1 linguist-language=Roff
+# *.2 linguist-detectable=false
+# *.2 linguist-documentation=false
+# *.2 linguist-language=Roff
+# *.3 linguist-detectable=false
+# *.3 linguist-documentation=false
+# *.3 linguist-language=Roff
+# *.roff linguist-detectable=false
+# *.roff linguist-documentation=false
+# *.roff linguist-language=Roff
+
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+# File type: gitattributes file (*.gitattributes)
+# File version: 2 (2022, Monday, December 5th at 2:51 pm PST)
+# Line count (including blank lines and compiler line): 182
+
 # End of script
